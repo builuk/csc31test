@@ -17,7 +17,7 @@ def last_update(request):
     # TODO: Uncomment just for local testing
     # print(response)
     response = response.json()
-    # print(response)
+    print(response)
     results = response['result']
     total_updates = len(results) - 1
     return results[total_updates]
